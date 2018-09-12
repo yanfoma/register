@@ -1,0 +1,38 @@
+<template id="news-signin">
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen,projection">
+    <link rel="stylesheet" href="responsive.css" type="text/css" media="screen,projection"> 
+    <link rel="stylesheet" href="toastr.min.css" type="text/css" media="screen,projection">
+  </head>
+  <div class="boxed_wrapper">
+    <section class="subscribe center sec-padd" style="background-image: url(http://web.yanfoma.com/components/newsletter/newsletter.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <h2>Sign in </h2>
+            <p></p>
+            <form class="subscribe-form" action="https://yanfoma.tech/en/subscribe" enctype="multipart/form-data"   method="post">
+              <input type="hidden" name="_token" value="H5KBeI06i8KsOTQzKL0VNPpjZc12PqqJXha3kepj">
+              <div class="col-md-1 col-sm-12 col-xs-12" style="margin-bottom: 20px;">
+                <input name="email" value="" type="email" placeholder="Your email " required>
+              </div>
+			   <div class="col-md-12  col-sm-12 col-xs-12" style="margin-bottom: 20px;">
+                <input name="password" value="" type="password" placeholder="Your password" required>
+              </div>
+			   <div class="col-md-12  col-sm-12 col-xs-12" style="margin-bottom: 20px;">
+                <a href="my reset_password.html">Forgot password</a>
+              </div>	  
+              <button type="submit" class="thm-btn" >Sign in</button>
+            </form>
+			<div>
+			<div>
+			<a href="my account.html">Create an account</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+</template>
+
+<script src="sign in.js"></script>
